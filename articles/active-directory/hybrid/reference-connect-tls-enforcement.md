@@ -33,7 +33,7 @@ In order to force the Azure AD Connect server to only use TLS 1.2 the registry o
 - [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\\.NETFramework\v4.0.30319]
   - "SystemDefaultTlsVersions"=dword:00000001
   - "SchUseStrongCrypto"=dword:0000001
-- [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\v4.0.30319]
+- [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
   - "SystemDefaultTlsVersions"=dword:00000001
   - "SchUseStrongCrypto"=dword:00000001
 - [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server]
